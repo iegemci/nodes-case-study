@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Movies</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_home">Home</string>
+    <string name="title_my_movies">My Movies</string>
+    <string name="title_movie_details">Movie Details</string>
+    <string name="cd_home">Home</string>
+    <string name="cd_my_movies">My Movies</string>
+    <string name="cd_movie_details">Movie Details</string>
+    <string name="base_url">https://api.themoviedb.org/3/</string>
+    <string name="search_hint">search for movies</string>
+    <string name="marvel">marvel</string>
+    <string name="action_search">Search</string>
+    <string name="default_search_warning">enter some tags to see cool movies</string>
+    <string name="no_movie_with_search_warning">oh noo, there is no movie with the given tag</string>
+    <string name="no_movie_added_warning">you don\'t have any movies</string>
+    <string name="release_date">Release Date : %s</string>
+
+    //Back Arrow Path Data
+    <string name="back_vector_path" translatable="false">M50 25,L80 50,M20 50,L80 50,M50 75,L80 50</string>
+    //Menu Path Data
+    <string name="menu_vector_path" translatable="false">M20 30,L80 30,M20 50,L80 50,M20 70,L80 70</string>
+    <string name="title_summary">Summary</string>
+</resources>

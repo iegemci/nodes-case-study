@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_my_movies"
+        app:startDestination="@id/myMoviesFragment">
+
+    <fragment
+            android:id="@+id/myMoviesFragment"
+            android:name="com.enesgemci.mymovies.ui.mymovies.MyMoviesFragment"
+            tools:layout="@layout/fragment_my_movies"
+            android:label="@string/title_my_movies">
+        <action android:id="@+id/action_myMoviesFragment_to_movieDetailsActivity2"
+                app:destination="@id/movieDetailsActivity2"/>
+    </fragment>
+
+    <activity
+            android:id="@+id/movieDetailsActivity2"
+            android:name="com.enesgemci.mymovies.ui.details.MovieDetailsActivity"
+            android:label="MovieDetailsActivity"
+            tools:layout="@layout/activity_movie_detail">
+
+        <argument
+                android:name="movie"
+                app:nullable="false"
+                app:argType="com.enesgemci.mymovies.data.Movie"/>
+    </activity>
+
+</navigation>

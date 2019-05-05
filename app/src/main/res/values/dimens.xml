@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="general_margin_large">32dp</dimen>
+    <dimen name="general_margin">16dp</dimen>
+    <dimen name="general_margin_between">12dp</dimen>
+    <dimen name="general_margin_medium">8dp</dimen>
+    <dimen name="general_margin_small">4dp</dimen>
+    <dimen name="general_margin_smaller">2dp</dimen>
+    <dimen name="movie_image_height">290dp</dimen>
+    <dimen name="corner_radius_rounded">25dp</dimen>
+    <dimen name="corner_radius_default">2dp</dimen>
+    <dimen name="grid_view_item_space">1dp</dimen>
+</resources>
